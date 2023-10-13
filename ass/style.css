@@ -1,0 +1,185 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+    font-family: cairo;
+
+}
+body{
+    background-color: #f2f2f2;
+}
+
+ 
+
+    
+
+
+
+h1,
+h2{
+    
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4fc44f;
+    color: #ffffff;
+    border-radius: 17px;
+    padding: 15px;
+
+
+}
+.flex{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.right,.left{
+    width: 48% ;
+   
+
+    
+}
+
+p{
+    text-align: center
+
+}
+header{
+    background-color: #4fc44f;
+    color: white;
+    border-radius: 0 0 80px 80px;
+}
+header h1 {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li a{
+    color: #ffffff;
+    text-decoration:none;
+    display: inline-block;
+    margin-top: 5px;
+
+}
+ul li a:hover{
+    border-bottom: 2px solid rgb(250, 96, 96);
+    font-size: 22px;
+}
+.follow {
+    box-shadow: 0 5px 30px gainsboro;
+    border-radius: 10px;
+    padding: 16px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-top: 6px solid #4fc44f;
+    width: 98%;
+    opacity: .5 ;
+
+
+}
+
+
+
+li {
+    list-style: none;
+    margin: 20px;
+    font-size: 18px;
+
+}
+
+.mood{
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+section{
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px rgb(191, 182, 182);
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    /* border: 2px solid brown; */
+    padding: 20px 0;
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    margin: 10px;
+    border: 2px solid;
+    border-color:rgb(66, 126, 224) rgb(41, 149, 57) ;
+}
+article h5 , .left h3 {
+    font-size: 26px;
+    font-family: cursive;
+}
+article p {
+    font-size: 20px;
+    padding: 5px;
+}
+.y , .f {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+.y{
+    background-color: rgb(234, 40, 40);
+}
+.f{
+    background-color: royalblue;
+}
+.left h3{
+    font-family: cairo ;
+    margin: 20px;
+    font-weight: 800;
+}
+.lol {
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+}
+.left p {
+    font-size: 16px;
+}
+.designed{
+    background-color: #4fc44f;
+    color: #ffffff;
+    padding: 15px; 
+    text-align: center;
+    border-radius: 35px 35px 0 0;
+}
+footer p a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0 5px;
+    color: royalblue;
+    border-radius: 3px;
+}
+
+
+footer p a:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0 5px;
+    background-color: royalblue;
+    color: white;
+}
+
+.fora{
+    direction: rtl;
+    
+}
